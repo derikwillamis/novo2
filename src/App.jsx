@@ -7,6 +7,17 @@ import './global.css'
 import styles from './app.module.css'
 
 
+const posts = [
+  {
+    id:1,
+    author {
+      avatarUrl:'https://github.com/derikwillamis.png',
+      name:'derik willamis',
+      role:'CTO @ rocketeat'
+    },
+  }
+];
+
 export function App() {
 
   return (
